@@ -11,7 +11,6 @@ using  System;
         }
        public float C1
         }
-        {
            get { return a/b; }
         }
         }
