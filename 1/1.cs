@@ -4,8 +4,8 @@ namespace A
 {
     class A
     {
-        private float a = 18,9;
-        private float b = 3,9;
+        private float a = 18,9F;
+        private float b = 3,9F;
 
         public float c1
         {
