@@ -1,27 +1,20 @@
-using  System;
+using System;
 
-    public  class A
+namespace A
+{
+    class A
     {
-        private float a = 18,9F;
-        private float b = 3,7F;
+        private float a = 18,9;
+        private float b = 3,9;
 
-        public float C0
+        public float c1
         {
             get { return (a - b);}
         }
-       public float C1
-        }
-           get { return a/b; }
-        }
-}
-
-     public  class Programm
-      
-    {
-        static void Main(string[] args)
-         
+        
+         public float c2
         {
-            A aObject = new A();
-            Console.WriteLine($"Result: {aObject.c}");
+            get { return (a / b);}
         }
     }
+}
