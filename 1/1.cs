@@ -13,7 +13,6 @@ using  System;
         }
            get { return a/b; }
         }
-        }
 }
 
      public  class Programm
