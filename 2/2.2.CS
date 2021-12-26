@@ -4,7 +4,7 @@ namespace LB_2
 {
     class B : A
     {
-        float d = 18.4;
+        float d = 19.4;
 
         public B(float d, float A, float B) : base(A,B)
         {
